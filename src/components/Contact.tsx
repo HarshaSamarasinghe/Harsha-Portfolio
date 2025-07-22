@@ -119,7 +119,7 @@ const Contact = () => {
                 <div>
                   <p className="text-sm text-muted-foreground">Phone</p>
                   <a href="tel:+1234567890" className="font-medium hover:text-primary transition-colors">
-                    +94 77 550 5007
+                    +94 76 3 537 831
                   </a>
                 </div>
               </div>
@@ -130,7 +130,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Location</p>
-                  <p className="font-medium">Barandana, Kurunegala, Sri Lanka</p>
+                  <p className="font-medium">Malabe, Sri Lanka</p>
                 </div>
               </div>
             </div>
