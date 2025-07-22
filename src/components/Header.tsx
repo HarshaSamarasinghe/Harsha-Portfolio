@@ -97,7 +97,7 @@ const Header = () => {
               {theme === "dark" ? <Sun size={20} /> : <Moon size={20} />}
             </button>
             <a
-              href="https://www.linkedin.com/in/nipun-wimalasooriya/"
+              href="https://www.linkedin.com/in/harsha-samarasinghe/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-foreground/70 hover:text-primary transition-colors duration-200"
@@ -106,7 +106,7 @@ const Header = () => {
               <Linkedin size={20} />
             </a>
             <a
-              href="https://github.com/nipunwimalasooriya"
+              href="https://github.com/HarshaSamarasinghe"
               target="_blank"
               rel="noopener noreferrer"
               className="text-foreground/70 hover:text-primary transition-colors duration-200"
@@ -115,7 +115,7 @@ const Header = () => {
               <Github size={20} />
             </a>
             <a
-              href="https://www.facebook.com/nipunwimalasooriya/"
+              href="https://www.facebook.com/share/1JZvmpeDxo/?mibextid=wwXIfr"
               target="_blank"
               rel="noopener noreferrer"
               className="text-foreground/70 hover:text-primary transition-colors duration-200"
@@ -124,7 +124,7 @@ const Header = () => {
               <Facebook size={20} />
             </a>
             <a
-              href="https://instagram.com/nipunwimalasooriya/"
+              href="https://www.facebook.com/share/1JZvmpeDxo/?mibextid=wwXIfr"
               target="_blank"
               rel="noopener noreferrer"
               className="text-foreground/70 hover:text-primary transition-colors duration-200"
@@ -175,7 +175,7 @@ const Header = () => {
           {/* Social Media Icons in Mobile Menu */}
           <div className="flex items-center space-x-6 mt-8">
             <a
-              href="https://www.linkedin.com/in/nipun-wimalasooriya/"
+              href="https://www.linkedin.com/in/harsha-samarasinghe/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-foreground/70 hover:text-primary transition-colors duration-200"
@@ -184,7 +184,7 @@ const Header = () => {
               <Linkedin size={24} />
             </a>
             <a
-              href="https://github.com/nipunwimalasooriya"
+              href="https://github.com/HarshaSamarasinghe"
               target="_blank"
               rel="noopener noreferrer"
               className="text-foreground/70 hover:text-primary transition-colors duration-200"
@@ -193,7 +193,7 @@ const Header = () => {
               <Github size={24} />
             </a>
             <a
-              href="https://www.facebook.com/nipunwimalasooriya/"
+              href="https://www.facebook.com/share/1JZvmpeDxo/?mibextid=wwXIfr"
               target="_blank"
               rel="noopener noreferrer"
               className="text-foreground/70 hover:text-primary transition-colors duration-200"
@@ -202,7 +202,7 @@ const Header = () => {
               <Facebook size={24} />
             </a>
             <a
-              href="https://instagram.com/nipunwimalasooriya/"
+              href="https://www.facebook.com/share/1JZvmpeDxo/?mibextid=wwXIfr"
               target="_blank"
               rel="noopener noreferrer"
               className="text-foreground/70 hover:text-primary transition-colors duration-200"

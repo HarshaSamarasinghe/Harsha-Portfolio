@@ -10,13 +10,13 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
             <p className="text-sm text-muted-foreground">
-              &copy; {currentYear} Nipun Wimalasooriya. All rights reserved.
+              &copy; {currentYear} Harsha Samarasinghe. All rights reserved.
             </p>
           </div>
           
           <div className="flex items-center space-x-4">
             <a
-              href="https://www.linkedin.com/in/nipun-wimalasooriya/"
+              href="https://www.linkedin.com/in/harsha-samarasinghe/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-foreground/60 hover:text-primary transition-colors"
@@ -25,7 +25,7 @@ const Footer = () => {
               <Linkedin size={18} />
             </a>
             <a
-              href="https://github.com/nipunwimalasooriya"
+              href="https://github.com/HarshaSamarasinghe"
               target="_blank"
               rel="noopener noreferrer"
               className="text-foreground/60 hover:text-primary transition-colors"
@@ -34,7 +34,7 @@ const Footer = () => {
               <Github size={18} />
             </a>
             <a
-              href="https://www.facebook.com/nipunwimalasooriya/"
+              href="https://www.facebook.com/share/1JZvmpeDxo/?mibextid=wwXIfr"
               target="_blank"
               rel="noopener noreferrer"
               className="text-foreground/60 hover:text-primary transition-colors"
@@ -43,7 +43,7 @@ const Footer = () => {
               <Facebook size={18} />
             </a>
             <a
-              href="https://www.instagram.com/nipunwimalasooriya/"
+              href="https://www.facebook.com/share/1JZvmpeDxo/?mibextid=wwXIfr"
               target="_blank"
               rel="noopener noreferrer"
               className="text-foreground/60 hover:text-primary transition-colors"

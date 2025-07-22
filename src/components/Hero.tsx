@@ -11,10 +11,10 @@ const Hero = () => {
   const { theme } = useTheme();
 
   const handleDownload = () => {
-    const fileUrl = '/SE_Nipun_Wimalasooriya_CV.pdf';
+    const fileUrl = '/Harsha_Samarasinghe_CV.pdf';
     const link = document.createElement('a');
     link.href = fileUrl;
-    link.download = 'SE_Nipun_Wimalasooriya_CV.pdf';
+    link.download = 'Harsha_Samarasinghe_CV.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -53,17 +53,14 @@ const Hero = () => {
           {/* Left Content */}
           <div className="flex flex-col space-y-6 text-center md:text-left">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold">
-              <span className="block">Hello, I'm Nipun Wimalasooriya</span>
+              <span className="block">Hello, I'm Harsha Samarasinghe</span>
               <span className="text-gradient">
                 <TypewriterEffect
                   texts={[
                     "A Problem Solver",
                     "Developer",
                     "Creative Thinker",
-                    "UI/UX Designer",
-                    "Software Engineer",
-                    "Design Enthusiast",
-                    "Tech Enthusiast",
+                    "Software Engineering Undergraduate",
                   ]}
                 />
               </span>
@@ -77,7 +74,7 @@ const Hero = () => {
             {/* Social Icons */}
             <div className="flex items-center space-x-4 justify-center md:justify-start">
               <a
-                href="https://www.linkedin.com/in/nipun-wimalasooriya/"
+                href="https://www.linkedin.com/in/harsha-samarasinghe/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-foreground/70 hover:text-primary transition-all duration-300 hover:scale-110"
@@ -86,7 +83,7 @@ const Hero = () => {
                 <Linkedin size={24} />
               </a>
               <a
-                href="https://github.com/nipunwimalasooriya"
+                href="https://github.com/HarshaSamarasinghe"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-foreground/70 hover:text-primary transition-all duration-300 hover:scale-110"
@@ -95,7 +92,7 @@ const Hero = () => {
                 <Github size={24} />
               </a>
               <a
-                href="https://www.facebook.com/nipunwimalasooriya/"
+                href="https://www.facebook.com/share/1JZvmpeDxo/?mibextid=wwXIfr"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-foreground/70 hover:text-primary transition-all duration-300 hover:scale-110"
@@ -104,7 +101,7 @@ const Hero = () => {
                 <Facebook size={24} />
               </a>
               <a
-                href="https://instagram.com/nipunwimalasooriya/"
+                href="https://www.facebook.com/share/1JZvmpeDxo/?mibextid=wwXIfr"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-foreground/70 hover:text-primary transition-all duration-300 hover:scale-110"
@@ -129,8 +126,8 @@ const Hero = () => {
             {/* Portrait Image */}
             <img
               ref={imageRef}
-              src="./img/Hero.png"
-              alt="Nipun Wimalasooriya"
+              src="./img/portfolio-profile-pic.png"
+              alt="Harsha Samarasinghe"
               className="relative z-10 h-[300px] md:h-[600px] w-auto object-contain animate-float"
               loading="lazy"
             />
