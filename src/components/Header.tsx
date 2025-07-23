@@ -70,9 +70,10 @@ const Header = () => {
       >
         <div className="container relative mx-auto px-4 md:px-6 flex items-center justify-between">
           {/* Logo */}
-          <a href="#home" className="text-xl font-bold text-gradient z-50">
-            NW.
+          <a href="#home" className="text-xl font-bold bg-gradient-to-r from-blue-500 to-blue-700 text-transparent bg-clip-text z-50">
+          HS
           </a>
+
 
           {/* Desktop Nav */}
           <nav className="hidden md:flex items-center space-x-8">
@@ -115,7 +116,7 @@ const Header = () => {
               <Github size={20} />
             </a>
             <a
-              href="https://www.facebook.com/share/1JZvmpeDxo/?mibextid=wwXIfr"
+              href="https://www.facebook.com/harsha.samarasinghe.351"
               target="_blank"
               rel="noopener noreferrer"
               className="text-foreground/70 hover:text-primary transition-colors duration-200"
@@ -124,7 +125,7 @@ const Header = () => {
               <Facebook size={20} />
             </a>
             <a
-              href="https://www.facebook.com/share/1JZvmpeDxo/?mibextid=wwXIfr"
+              href="https://www.instagram.com/harsha_25_samarasinghe"
               target="_blank"
               rel="noopener noreferrer"
               className="text-foreground/70 hover:text-primary transition-colors duration-200"
@@ -193,7 +194,7 @@ const Header = () => {
               <Github size={24} />
             </a>
             <a
-              href="https://www.facebook.com/share/1JZvmpeDxo/?mibextid=wwXIfr"
+              href="https://www.facebook.com/harsha.samarasinghe.351"
               target="_blank"
               rel="noopener noreferrer"
               className="text-foreground/70 hover:text-primary transition-colors duration-200"
@@ -202,7 +203,7 @@ const Header = () => {
               <Facebook size={24} />
             </a>
             <a
-              href="https://www.facebook.com/share/1JZvmpeDxo/?mibextid=wwXIfr"
+              href="https://www.instagram.com/harsha_25_samarasinghe"
               target="_blank"
               rel="noopener noreferrer"
               className="text-foreground/70 hover:text-primary transition-colors duration-200"

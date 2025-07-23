@@ -11,9 +11,9 @@ const Projects = () => {
     <section id="projects" className="py-10">
       <div className="section-container">
         <div className="text-center mb-16 animate-on-scroll">
-          <h2 className="section-title">Projects</h2>
+          <h2 className="section-title text-blue-600">Projects</h2>
           <p className="section-subtitle mx-auto">
-            A showcase of my recent work, including web applications, design projects, and development experiments.
+            A showcase of my recent work including web applications and acadamic group projects.
           </p>
         </div>
 
@@ -92,11 +92,11 @@ const Projects = () => {
         {/* View All Projects Button */}
         <div className="flex justify-center mt-12 animate-on-scroll">
           <Button
-            className="flex items-center gap-2 px-6 py-3 rounded-lg bg-primary text-white hover:bg-primary/90 transition-all duration-300 transform hover:-translate-y-1"
+            className="flex items-center gap-2 px-6 py-3 rounded-lg bg-blue-500 text-white hover:bg-blue-700 transition-all duration-300 transform hover:-translate-y-1"
             asChild
           >
             <a
-              href="https://github.com/nipunwimalasooriya"
+              href="https://github.com/HarshaSamarasinghe"
               target="_blank"
               rel="noopener noreferrer"
             >

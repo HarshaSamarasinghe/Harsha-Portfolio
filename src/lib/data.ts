@@ -9,10 +9,10 @@ export const navItems: NavItem[] = [
     label: "Home",
     href: "#home",
   },
-  {
-    label: "Experience",
-    href: "#experience",
-  },
+  // {
+  //   label: "Experience",
+  //   href: "#experience",
+  // },
   {
     label: "Education",
     href: "#education",
@@ -46,7 +46,6 @@ export const skillCategories: SkillCategory[] = [
     title: "Programming Languages",
     skills: [
       { name: "JavaScript" },
-      { name: "TypeScript"},
       { name: "Python"},
       { name: "Java"},
     ],
@@ -56,8 +55,6 @@ export const skillCategories: SkillCategory[] = [
     skills: [
       { name: "React"},
       { name: "Node.js"},
-      { name: "Next.js"},
-      { name: "Vue.js"},
     ],
   },
   {
@@ -65,34 +62,30 @@ export const skillCategories: SkillCategory[] = [
     skills: [
       { name: "MongoDB"},
       { name: "PostgreSQL"},
-      { name: "Firebase"},
-      { name: "Redis"},
+      { name: "MySQL"},
     ],
   },
   {
     title: "UI Libraries",
     skills: [
-      { name: "Radix UI"},
-      { name: "Shadcn UI"},
-      { name: "Next UI"},
+      { name: "Chakra UI"},
+      { name: "Bootstrap 5"},
     ],
   },
   {
     title: "Tools",
     skills: [
       { name: "Git"},
-      { name: "Docker"},
-      { name: "AWS"},
+      { name: "Android Studio"},
+      { name: "Eclips IDE"},
       { name: "Postman"},
+      { name: "Visual Studio Code"},
     ],
   },
   {
-    title: "Other",
+    title: "Design Tools",
     skills: [
-      { name: "Phoptoshop"},
-      { name: "Illustrator"},
-      { name: "After Effects"},
-      { name: "Premiere Pro"},
+      { name: "Canva"},
       { name: "Figma"},
     ],
   },
@@ -105,22 +98,22 @@ export type Experience = {
   description: string;
 };
 
-export const experiences: Experience[] = [
-  {
-    company: "Arimac Digital",
-    position: "Software Engineer I",
-    duration: "2025 Feb - Present",
-    description:
-      "Building secure and high-performance Fintech applications using Next.js, React, TypeScript, and Redux. My focus is on developing responsive UIs, managing complex state efficiently, and optimizing performance for seamless financial transactions. I collaborate with cross-functional teams to deliver scalable fintech solutions, ensuring security, compliance, and exceptional user experiences. Passionate about modern web technologies, I prioritize clean, maintainable code to drive innovation in the financial sector.",
-  },
-  {
-    company: "Arimac Digital",
-    position: "Software Engineer Intern",
-    duration: "2024 Aug - 2025 Feb",
-    description:
-      "Worked with Next.js, React, TypeScript, and Redux, building responsive UIs and managing state efficiently. Focused on learning best practices for performance optimization, security, and scalable development while collaborating with teams to deliver seamless financial solutions.",
-  },
-];
+// export const experiences: Experience[] = [
+//   {
+//     company: "Arimac Digital",
+//     position: "Software Engineer I",
+//     duration: "2025 Feb - Present",
+//     description:
+//       "Building secure and high-performance Fintech applications using Next.js, React, TypeScript, and Redux. My focus is on developing responsive UIs, managing complex state efficiently, and optimizing performance for seamless financial transactions. I collaborate with cross-functional teams to deliver scalable fintech solutions, ensuring security, compliance, and exceptional user experiences. Passionate about modern web technologies, I prioritize clean, maintainable code to drive innovation in the financial sector.",
+//   },
+//   {
+//     company: "Arimac Digital",
+//     position: "Software Engineer Intern",
+//     duration: "2024 Aug - 2025 Feb",
+//     description:
+//       "Worked with Next.js, React, TypeScript, and Redux, building responsive UIs and managing state efficiently. Focused on learning best practices for performance optimization, security, and scalable development while collaborating with teams to deliver seamless financial solutions.",
+//   },
+// ];
 export type Education = {
   place: string;
   position: string;
@@ -130,18 +123,18 @@ export type Education = {
 
 export const educations: Education[] = [
   {
-    place: "Faculty of Computing, Sabaragmuwa University of Sri Lanka",
-    position: "Bsc (Hons) in Computing & information Systems",
-    duration: "2021 Aug - Present",
+    place: "Faculty of Computing, Sri Lanka Institute of Information Technology",
+    position: "BSc.(Hons) in Software Engineering(Reading)",
+    duration: "2023 May - Present",
     description:
-      "Final-year undergraduate with hands-on experience in software development, data analytics, and information systems. Skilled in problem-solving and modern computing technologies, with a strong foundation in academic research and practical applications.",
+      "Final-year undergraduate with hands-on experience in software development, Skilled in problem-solving and modern computing technologies, with a strong foundation in academic research and practical applications.",
   },
   {
-    place: "St' Anne's College, Kurunegala",
-    position: "GCE Advanced Level",
-    duration: "2009 Jan - 2017 Aug",
+    place: "Kegalu Vidyalaya, Kegalle",
+    position: "GCE A/L (Biological Science)",
+    duration: "2020 - 2022",
     description:
-      "Specialized in Mathematics, Physics, and Chemistry, enhancing analytical thinking, problem-solving, and scientific reasoning. Selected to pursue higher education at the Faculty of Computing, Sabaragamuwa University of Sri Lanka.",
+      "Physics - S | Chemistry - S | Biology - S | Genaral English - C",
   },
 ];
 export type Project = {
@@ -155,50 +148,50 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    title: "Sinhala OCR",
+    title: "Savendra Gardens",
     description:
-      "Optical Character recognition system designed mainly to digitize printed Sinhala text accurately.",
-    image: "./img/SinhalaOCR.jpg",
-    techStack: ['React', 'Python', 'FastAPI', 'OpenCV', 'PyTesseract'],
-    githubUrl: "https://github.com/nipunwimalasooriya/capstone_project_sinhalaOCR",
+      "Savendra Gardens is a Hotel reservation management system with all user functionalities and Admin controlls.",
+    image: "./img/SavendraGardens.png",
+    techStack: ['HTML', 'CSS', 'JavaScript', 'MySQL', 'PHP', 'XAMPP'],
+    githubUrl: "https://github.com/HarshaSamarasinghe/Hotel-Reservation-Management-System",
   },
   {
-    title: "Jail Break",
+    title: "ScholaHub",
     description:
-      "2D strategic puzzle game developed using Unity.",
-    image: "./img/Jail Break.png",
-    techStack: ['C#', 'Unity'],
-    demoUrl: "https://wikumchamith.itch.io/jail-break",
+      "ScholaHub is an Online School Information Management System for handling all the functionalities of students and teachers.",
+    image: "./img/ScholaHub.png",
+    techStack: ['JSP', 'CSS', 'JavaScript', 'MySQL', 'Java', 'Tomcat 10.1'],
+    githubUrl: "https://github.com/HarshaSamarasinghe/ScholaHub",
   },
   {
-    title: "MediTech",
+    title: "SportsZaga",
     description:
-      "This web application is designed to streamline the process of scheduling and managing doctor appointments.",
-    image: "./img/Meditech.jpg",
-    techStack: ['React', 'Node.js', 'Express', 'MongoDB', 'Socket.IO'],
-    githubUrl: "https://github.com/Shehan-lakshitha/MediTech",
+      "This web application is designed and developed to manage sports equipments.",
+    image: "./img/SportsZaga.png",
+    techStack: ['React', 'Node.js', 'Express', 'MongoDB'],
+    githubUrl: "https://github.com/HarshaSamarasinghe/SportsZaga",
   },
-  {
-    title: "Wave Lane UI",
-    description:
-      "UI Developed for an ecommerce clothing store with an attractive design.",
-    image: "./img/Wavelane.jpg",
-    techStack: ['Figma', 'Photoshop'],
-    demoUrl: "https://www.figma.com/design/Kh5ONtRUuN1EZdKPRETjhK/Wave-Lane?node-id=0-1&t=RNQuHLCkQYJuleFq-1",
-  },
-  {
-    title: "Ninu's Luxury Clothing",
-    description:
-      "Ecormmerce website developed for a clothing store.",
-    image: "./img/ninus.jpg",
-    techStack: ['React', 'TypeScript', 'Spring Boot', 'PostgreSQL'],
-    demoUrl: "https://ninus-luxury-clothing.netlify.app/",
-  },
+  // {
+  //   title: "Wave Lane UI",
+  //   description:
+  //     "UI Developed for an ecommerce clothing store with an attractive design.",
+  //   image: "./img/Wavelane.jpg",
+  //   techStack: ['Figma', 'Photoshop'],
+  //   demoUrl: "https://www.figma.com/design/Kh5ONtRUuN1EZdKPRETjhK/Wave-Lane?node-id=0-1&t=RNQuHLCkQYJuleFq-1",
+  // },
+  // {
+  //   title: "Ninu's Luxury Clothing",
+  //   description:
+  //     "Ecormmerce website developed for a clothing store.",
+  //   image: "./img/ninus.jpg",
+  //   techStack: ['React', 'TypeScript', 'Spring Boot', 'PostgreSQL'],
+  //   demoUrl: "https://ninus-luxury-clothing.netlify.app/",
+  // },
 ];
 
 export const socialLinks = {
-  linkedin: "https://www.linkedin.com/in/nipun-wimalasooriya/",
-  github: "https://github.com/nipunwimalasooriya",
-  facebook: "https://www.facebook.com/nipunwimalasooriya/",
-  instagram: "https://www.instagram.com/nipunwimalasooriya/",
+  linkedin: "https://www.linkedin.com/in/harsha-samarasinghe",
+  github: "https://github.com/HarshaSamarasinghe",
+  facebook: "https://www.facebook.com/harsha.samarasinghe.351",
+  instagram: "https://www.instagram.com/harsha_25_samarasinghe",
 };

@@ -1,6 +1,6 @@
 
 import { useEffect, useRef } from "react";
-import { skillCategories, experiences, educations } from "@/lib/data";
+import { skillCategories, educations } from "@/lib/data";
 import { Calendar, Building } from "lucide-react";
 
 const Skills = () => {
@@ -13,60 +13,13 @@ const Skills = () => {
   return (
     <>
      {/* Experience Section */}
-     <section id="experience" className="py-10">
-        <div ref={experienceRef} className="section-container">
-          <div className="text-center mb-16 animate-on-scroll">
-            <h2 className="section-title">Work Experience</h2>
-            <p className="section-subtitle mx-auto">
-              My professional journey as a Software Engineer, with details about the roles I've held and as brief summary of what i did.
-            </p>
-          </div>
+     
 
-          <div className="max-w-3xl mx-auto">
-            {experiences.map((exp, index) => (
-              <div
-                key={exp.company}
-                className="relative pl-8 pb-12 animate-on-scroll"
-                style={{ animationDelay: `${index * 200}ms` }}
-              >
-                {/* Timeline line */}
-                {index < experiences.length - 1 && (
-                  <div className="absolute left-3 top-3 bottom-0 w-0.5 bg-primary/20" />
-                )}
-                
-                {/* Timeline dot */}
-                <div className="absolute left-0 top-3 w-6 h-6 rounded-full bg-primary flex items-center justify-center">
-                  <div className="w-2 h-2 rounded-full bg-white" />
-                </div>
-                
-                {/* Content */}
-                <div className="glass p-6 rounded-xl">
-                  <div className="flex flex-wrap justify-between items-start mb-3">
-                    <h3 className="text-xl font-semibold">{exp.position}</h3>
-                    <div className="flex items-center text-sm text-primary font-medium">
-                      <Calendar size={16} className="mr-1" />
-                      {exp.duration}
-                    </div>
-                  </div>
-                  
-                  <div className="flex items-center text-sm text-muted-foreground mb-4">
-                    <Building size={16} className="mr-2" />
-                    {exp.company}
-                  </div>
-                  
-                  <p className="text-foreground/80">{exp.description}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Experience Section */}
+      {/* Education Section */}
      <section id="education" className="py-10">
         <div ref={educationRef} className="section-container">
           <div className="text-center mb-16 animate-on-scroll">
-            <h2 className="section-title">Education</h2>
+            <h2 className="section-title text-blue-600">Education</h2>
             <p className="section-subtitle mx-auto">
               My educational journey, with details about the places i studied in and brief summary of what i learned.
             </p>
@@ -80,7 +33,7 @@ const Skills = () => {
                 style={{ animationDelay: `${index * 200}ms` }}
               >
                 {/* Timeline line */}
-                {index < experiences.length - 1 && (
+                {index < educations.length - 1 && (
                   <div className="absolute left-3 top-3 bottom-0 w-0.5 bg-primary/20" />
                 )}
                 
@@ -116,7 +69,7 @@ const Skills = () => {
       <section id="skills" className="py-10">
         <div ref={skillsRef} className="section-container">
           <div className="text-center mb-16 animate-on-scroll">
-            <h2 className="section-title">Skills</h2>
+            <h2 className="section-title text-blue-600">Skills</h2>
             <p className="section-subtitle mx-auto">
               A comprehensive overview of my technical abilities and expertise in various technologies and tools.
             </p>

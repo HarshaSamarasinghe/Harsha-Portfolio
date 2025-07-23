@@ -67,8 +67,9 @@ const Hero = () => {
             </h1>
 
             <p className="text-lg text-muted-foreground max-w-lg mx-auto md:mx-0">
-              I craft elegant, user-centric digital experiences with meticulous attention
-              to detail and a focus on simplicity and functionality.
+              SE undergraduate | Passionate web developer with hands-on experience in modern web technologies | 
+              Eager to contribute and grow through an IT-related internship opportunity.
+
             </p>
 
             {/* Social Icons */}
@@ -92,7 +93,7 @@ const Hero = () => {
                 <Github size={24} />
               </a>
               <a
-                href="https://www.facebook.com/share/1JZvmpeDxo/?mibextid=wwXIfr"
+                href="https://www.facebook.com/harsha.samarasinghe.351"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-foreground/70 hover:text-primary transition-all duration-300 hover:scale-110"
@@ -101,7 +102,7 @@ const Hero = () => {
                 <Facebook size={24} />
               </a>
               <a
-                href="https://www.facebook.com/share/1JZvmpeDxo/?mibextid=wwXIfr"
+                href="https://www.instagram.com/harsha_25_samarasinghe"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-foreground/70 hover:text-primary transition-all duration-300 hover:scale-110"
@@ -116,7 +117,7 @@ const Hero = () => {
               <Button onClick={handleDownload} className="group relative overflow-hidden bg-primary hover:bg-primary/90 text-white rounded-lg px-6 py-3 flex items-center gap-2 transition-all duration-300">
                 <span className="relative z-10">Download CV</span>
                 <Download className="w-5 h-5 relative z-10 group-hover:translate-y-1 transition-transform duration-300" />
-                <div className="absolute inset-0 bg-gradient-to-r from-primary to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <div className="absolute inset-0 bg-gradient-to-r from-primary to-blue-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               </Button>
             </div>
           </div>

@@ -34,7 +34,7 @@ const Footer = () => {
               <Github size={18} />
             </a>
             <a
-              href="https://www.facebook.com/share/1JZvmpeDxo/?mibextid=wwXIfr"
+              href="https://www.facebook.com/harsha.samarasinghe.351"
               target="_blank"
               rel="noopener noreferrer"
               className="text-foreground/60 hover:text-primary transition-colors"
@@ -43,7 +43,7 @@ const Footer = () => {
               <Facebook size={18} />
             </a>
             <a
-              href="https://www.facebook.com/share/1JZvmpeDxo/?mibextid=wwXIfr"
+              href="https://www.instagram.com/harsha_25_samarasinghe"
               target="_blank"
               rel="noopener noreferrer"
               className="text-foreground/60 hover:text-primary transition-colors"

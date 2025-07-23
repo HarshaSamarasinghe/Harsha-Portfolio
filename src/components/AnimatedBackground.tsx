@@ -42,16 +42,16 @@ const AnimatedBackground: React.FC = () => {
 
       // Apply theme-dependent styling
       if (theme === "light") {
-        starElem.style.boxShadow = `0 0 ${size * 2}px rgba(168,85,247,0.8)`;
+        starElem.style.boxShadow = `0 0 ${size * 2}px rgba(37, 99, 235, 0.8)`;
         starElem.style.backgroundColor =
           Math.random() > 0.3
-            ? "rgba(168,85,247,0.9)"
-            : "rgba(139,92,246,0.9)";
+            ? "rgba(37, 99, 235, 0.9)"
+            : "rgba(37, 99, 235, 0.9)";
       } else {
         starElem.style.boxShadow = `0 0 ${size * 2}px rgba(255,255,255,0.8)`;
         starElem.style.backgroundColor =
           Math.random() > 0.6
-            ? "rgba(168,85,247,0.8)"
+            ? "rgba(37, 99, 235, 0.8)"
             : "rgba(255,255,255,0.8)";
       }
 

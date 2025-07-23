@@ -34,10 +34,10 @@ const Contact = () => {
     // Make sure the formRef is valid and send the email using emailjs
     if (formRef.current) {
       emailjs.sendForm(
-        'service_f5j54um', 
-        'template_fl3akfl', 
+        'service_2jdl60n',  //service ID
+        'template_jybus9l', //template ID
         formRef.current,
-        'oIFpnFM1MOhbGuWNk' 
+        'cGVBGgkYZeoNJhu3a'  //public key
       )
       .then((result) => {
         console.log(result.text);
@@ -88,7 +88,7 @@ const Contact = () => {
     <section id="contact" className="py-20">
       <div className="section-container">
         <div className="text-center mb-16 animate-on-scroll">
-          <h2 className="section-title">Get In Touch</h2>
+          <h2 className="section-title text-blue-600">Get In Touch</h2>
           <p className="section-subtitle mx-auto">
             Have a question or want to work together? Drop me a message and I'll get back to you!
           </p>
@@ -130,7 +130,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Location</p>
-                  <p className="font-medium">Malabe, Sri Lanka</p>
+                  <p className="font-medium">No.274, Paranawtta, New Colombo Road Polgahawela, Sri Lanka</p>
                 </div>
               </div>
             </div>
@@ -138,14 +138,14 @@ const Contact = () => {
             {/* Map */}
             <div className="glass-dark rounded-xl overflow-hidden h-[200px] relative">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d831.5711105810855!2d80.43562099626122!3d7.504811422960295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2slk!4v1741862455722!5m2!1sen!2slk"
+                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3957.2676253143063!2d80.2947110744854!3d7.323807313347209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zN8KwMTknMjUuNyJOIDgwwrAxNyc1MC4yIkU!5e0!3m2!1sen!2slk!4v1753289038483!5m2!1sen!2slk"
                 className="w-full h-full object-cover border-none"
                 title="Location Map"
                 allowFullScreen
                 loading="lazy"
               />
             </div>
-
+        
           </div>
 
           {/* Contact Form */}
